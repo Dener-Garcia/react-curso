@@ -2,3 +2,7 @@
     filter: grayscale(1);
     width: 360px;
 }
+
+.big-image{
+    width: 450px;
+}
