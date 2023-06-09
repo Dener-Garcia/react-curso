@@ -1,13 +1,16 @@
 import React from "react"
-import GrayImage from "../../../global/shared/gray-image/gray-img"
+import DescriptionWIthLink from "../../shared/descriptionWithLink"
+import GrayImage from "../../shared/gray-image.js"
 
 
-const Planet = () => {
+const Planet = (props) => {
     return (
         <div>
-            <h3>Mercúrio</h3>
-            <p>Mercúrio, o planeta mais próximo do Sol, é um mundo rochoso com temperaturas extremas e uma superfície repleta de crateras e falhas, oferecendo uma fascinante oportunidade de exploração.</p>
-            <GrayImage/>
+            <h2>{props.tittle}</h2>
+           <DescriptionWIthLink description={props.planet_description} 
+           link_ref={props.link} 
+           link_description={props.descritpion_link}/>
+            <GrayImage url={props.planet_url}/>
         </div>
     )
 }
