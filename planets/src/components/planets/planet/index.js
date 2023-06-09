@@ -11,6 +11,12 @@ const Planet = (props) => {
         titulo = <h3><i>{props.tittle}</i></h3>
     }
 
+    // criando um array em forma de <li>
+    const satellitesNames = ["satelete 1", "satelete 2", "satelete 3", "satelete 4"]
+    const satellites = satellitesNames.map((sat) =>
+        <li>NOME DO {sat}</li>
+    )
+
     return (
         <div>
             <h2>{titulo}</h2>
@@ -22,6 +28,9 @@ const Planet = (props) => {
             altText="mercúrio planeta cinza com linhas e pontos brancos similar a aparência da lua"
             smallSize={true}
             />
+            <p>Conheça os satelites que esse planeta tem</p>
+            <ul>{satellites}</ul>
+            <hr/>
         </div>
     )
 }
