@@ -1,0 +1,24 @@
+{
+    "cores" : [
+    {
+        "id": "1",
+        "nome": "Mercurio",
+        "cor": "Cinza"
+    },
+    {
+        "id": "2",
+        "nome": "Venus",
+        "cor": "Cinza com amarelo"
+    },
+    {
+        "id": "3",
+        "nome": "Terra",
+        "cor": "Azul"
+    },
+    {
+        "id": "4",
+        "nome": "Marte",
+        "cor": "Vermelho"
+    }
+]
+}
