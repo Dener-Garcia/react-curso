@@ -1,0 +1,15 @@
+.d-flex-cl{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #9ec5d8;
+    border-radius: 8px;
+}
+
+.d-flex-cl input{
+    width: 200px;
+}

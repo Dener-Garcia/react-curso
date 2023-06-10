@@ -156,5 +156,18 @@ Geralmente queremos controlar quando sera utilizado quem esta dentro do useEffec
     console.log("array de dependencias VAZIO Roda so uma vez no carregamento da DOM")
     }, [])
 
+# Trabalhando com multi paginas no React
 
-    
+Para criar outras paginas precisamos de uma biblioteca do React chamada react router dom
+
+    npm install react-router-dom --save
+
+Para se organizar crie uma pasta chamada "pages" dentro da pasta src, as paginas tambem sao componentes normais.
+
+### Configurando as rotas
+
+Crie um arquivo dentro da pasta src chamado routes.js, nele import as dependencias do router-dom e suas paginas e configure as paginas usando o Brownser Router
+
+- BrowserRouter = Estrutura externa para todas as paginas (rotas) que devem ser exibidas dentro dele;
+- Switch = Deve ficar dentro do BrowserRouter basicamente eh o componente que deve ficar em volta de todas as rodas para poder trocar as rotas.
+- Route = caminho da rota, seria o link

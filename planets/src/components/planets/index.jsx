@@ -2,6 +2,7 @@ import React, { fragment, useState } from "react";
 import Planet from "./planet";
 import Formulario from "../forms/form";
 import Contador from "../contador";
+import MultForm from "../multi-form";
 
 const tip = () => {
     alert("assim eh um evento em React")
@@ -41,6 +42,10 @@ const PlanetList = () => {
             <h3>Hooks</h3>
             <h4>Exemplo com useEffect</h4>
             <Contador/>
+            <hr></hr>
+            <h3>Hooks</h3>
+            <h4>Exemplo controlando multi field de um form</h4>
+            <MultForm/>
 
         </fragment>
     )
