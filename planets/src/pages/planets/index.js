@@ -1,9 +1,9 @@
 import React from "react";
-import Planet from "../../components/planets/planet";
+import PlanetList from "../../components/planets";
 
 const PlanetUI = () => {
     return (
-        <Planet/>
+        <PlanetList/>
     )
 }
 

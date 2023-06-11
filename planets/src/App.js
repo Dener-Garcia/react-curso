@@ -1,5 +1,5 @@
 import PlanetList from "./components/planets";
-import Rotas from "./rotas";
+import Rotas from "./routes";
 import PlanetUI from "./pages/planets";
 
 function App() {
